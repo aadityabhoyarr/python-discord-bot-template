@@ -2,8 +2,8 @@ import discord
 from discord.ext import commands
 
 
-token = "TOKEN_HERE"
-prefix = "PREFIX_HERE"
+token = YOUR_BOT_PREFIX_HERE
+prefix = YOUR_BOT_TOKEN_HERE
 
 client = commands.Bot(command_prefix= prefix)
 client.remove_command("help")
