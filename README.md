@@ -36,6 +36,14 @@ Now you have to get your Bot User into a server. To do this, you should create a
 - After selecting the appropriate permissions, click the 'copy' button above the permissions. That will copy a URL which can be used to add the bot to a server.Paste the URL into your browser, choose a server to invite the bot to, and click “Authorize”.
 - Now that you've created the bot user, we'll start writing the Python code for the bot.
 
+## 📩-How to download it
+
+- Clone/Download the repository by typing the following command in your terminal (Linux, Mac & Windows), or your Command Prompt ( Windows) .
+
+```
+git clone 
+```
+
 ## 🚦-How to start
 Before getting started u need to download the library `discord.py`, by typing the following command in your terminal (Linux, Mac & Windows), or your Command Prompt ( Windows) .
 
