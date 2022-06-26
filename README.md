@@ -21,4 +21,9 @@ Here are the step to creating a Discord Bot account:
 - Copy the token. This token is your bot's password so don't share it with anybody. It could allow someone to log in to your bot and do all sorts of bad things. You can regenerate the token if it accidentally gets shared.
 
 ## ✉️-Invite Your Bot to Join a Server
+Now you have to get your Bot User into a server. To do this, you should create an invite URL for it.
+- Go to the "OAuth2" tab. Then select "bot" under the "scopes" section.
+- Now choose the permissions you want for the bot. Our bot is going to mainly use text messages so we don't need a lot of the permissions. You may need more depending on what you want your bot to do. Be careful with the "Administrator" permission.
+- After selecting the appropriate permissions, click the 'copy' button above the permissions. That will copy a URL which can be used to add the bot to a server.Paste the URL into your browser, choose a server to invite the bot to, and click “Authorize”.
+- Now that you've created the bot user, we'll start writing the Python code for the bot.
 
