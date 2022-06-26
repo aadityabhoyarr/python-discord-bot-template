@@ -5,7 +5,7 @@ This repository is a template that everyone can use for the start of their disco
 This template is specially made fro begner programer .Pleace remember this template is not supposed to be the best template, but a good template to start learning how `discord.py` works and to make your own bot easily.
 
 ## Index
-* [💪- Support](#support)
+* [💪- Support](#--support)
 * [🎫-Get the Discord Token](#-get-the-discord-token)
 * [✉️-Invite Your Bot to Join a Server](##%EF%B8%8F-invite-your-bot-to-join-a-server)
 
