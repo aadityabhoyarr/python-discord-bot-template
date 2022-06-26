@@ -11,7 +11,7 @@ This template is specially made fro begner programer .Pleace remember this templ
 
 ## 🎫-Get the Discord Token
 Here are the step to creating a Discord Bot account:
-1. Make sure you’re logged on to the Discord website.
+- 1. Make sure you’re logged on to the Discord website.
 2. Navigate to the application page.
 3. Click on the “New Application” button.
 4. Give the application a name and click “Create”.
