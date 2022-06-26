@@ -7,7 +7,7 @@ This template is specially made fro begner programer .Pleace remember this templ
 ## Index
 * [💪- Support](#support)
 * [🎫-Get the Discord Token](#get_the_Discord_Token)
-* [✉️-Invite Your Bot to Join a Server](#invite_Your_Bot_to_Join_a_Server)
+* [✉️-Invite Your Bot to Join a Server](##%EF%B8%8F-invite-your-bot-to-join-a-server)
 
 ## 💪- Support 
 
