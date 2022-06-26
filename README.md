@@ -39,6 +39,7 @@ Now you have to get your Bot User into a server. To do this, you should create a
 ## 📩-How to download it
 
 - Clone/Download the repository by typing the following command in your terminal (Linux, Mac & Windows), or your Command Prompt ( Windows) .
+`if u get an error like: 'git' is not recognized as an internal or external command, u need to download Git. [For more help visit](https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command)`
 
 ```
 git clone 
