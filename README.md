@@ -39,5 +39,7 @@ Now you have to get your Bot User into a server. To do this, you should create a
 ## 🚦-How to start
 Before getting started u need to download the library `discord.py`, by typing the following command in your terminal (Linux, Mac & Windows), or your Command Prompt ( Windows) .
 
-```pip install discord.py```
+```
+pip install discord.py
+```
 
