@@ -54,8 +54,9 @@ git clone https://github.com/MrAdityaBhoyar/Python-Discord-Bot-Template.git
 pip install -r requirements.txt
 ```
 - Now fill the important information in [main.py]()
-| Variable  | What it is  | 
-| :------------ |:---------------:| 
-| YOUR_BOT_PREFIX_HERE | The prefix you want to use for normal commands | 
-| YOUR_BOT_TOKEN_HERE | The token of your bot |   
+
+| Variable                  | What it is                                                            |
+| ------------------------- | ----------------------------------------------------------------------|
+| YOUR_BOT_PREFIX_HERE      | The prefix you want to use for normal commands                        |
+| YOUR_BOT_TOKEN_HERE       | The token of your bot                                                 | 
 
