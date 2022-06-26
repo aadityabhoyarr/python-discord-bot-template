@@ -43,8 +43,9 @@ Now you have to get your Bot User into a server. To do this, you should create a
 - [For more help visit](https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command)
 
 ```
-git clone 
+git clone https://github.com/MrAdityaBhoyar/Python-Discord-Bot-Template.git
 ```
+- Or just download the repo
 
 ## 🚦-How to start
 Before getting started u need to download the library `discord.py`, by typing the following command in your terminal (Linux, Mac & Windows), or your Command Prompt ( Windows) .
