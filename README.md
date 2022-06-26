@@ -6,4 +6,4 @@ This template is specially made fro begner programer .Pleace remember this templ
 
 ## 💪- Support 
 - Keep the credits, and a link to this repository in all the files containing my code will help me as a developer and new programer can see and get some help.
-- If you don't know the basics. (Here's)[https://www.pythondiscord.com/resources] a link for resources to learn python.
+- If you don't know the basics. [Here's](https://www.pythondiscord.com/resources) a link for resources to learn python.
