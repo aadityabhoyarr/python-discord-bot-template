@@ -53,7 +53,7 @@ git clone https://github.com/MrAdityaBhoyar/Python-Discord-Bot-Template.git
 ```
 pip install -r requirements.txt
 ```
-- Now fill the important information in [main.py]()
+- Now fill the important information in [main.py](https://github.com/MrAdityaBhoyar/Python-Discord-Bot-Template/blob/main/main.py)
 
 | Variable                  | What it is                                                            |
 | ------------------------- | ----------------------------------------------------------------------|
