@@ -37,5 +37,8 @@ Now you have to get your Bot User into a server. To do this, you should create a
 - Now that you've created the bot user, we'll start writing the Python code for the bot.
 
 ## 🚦-How to start
-
+Before getting started u need to download the library `discord.py`, by typing the following command in your terminal (Linux, Mac & Windows), or your Command Prompt ( Windows) .
+<?php
+        echo "Hello world!";
+    ?>
 
