@@ -51,6 +51,6 @@ git clone https://github.com/MrAdityaBhoyar/Python-Discord-Bot-Template.git
 Before getting started u need to download the library `discord.py`, by typing the following command in your terminal (Linux, Mac & Windows), or your Command Prompt ( Windows) .
 
 ```
-pip install discord.py
+pip install -r requirements.txt
 ```
 
