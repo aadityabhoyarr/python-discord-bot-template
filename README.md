@@ -139,3 +139,17 @@ async def utility(ctx) :
 Like:
 
 <img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(114).png">
+
+### Cooldown
+
+```
+@client.event
+async def on_command_error(ctx, error):
+    if isinstance(error, commands.CommandOnCooldown):
+        await ctx.send("**Try after {0} second ".format(round(error.retry_after, 2)))    
+        
+@client.command()
+@commands.cooldown(1, 10, commands.BucketType.channel) # 1 Command every 10 sec                           
+async def meme(ctx):
+    await ctx.send("Memes")        
+```
