@@ -96,3 +96,44 @@ This command will print we have logged in as botname, and this is for making the
 
 <img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(112).png">
 
+### Help Command
+```
+@client.group(invoke_without_command=True)
+async def help(ctx):
+    embed = discord.Embed(title="IndianDesiMemer Help Center ✨",color=0xF49726)
+    embed.add_field(name="Command Categories :",value="🐸 `memes    :` Image generation with a memey twist.\n" + "🔧 `utility  :` Bot utility zone\n😏 `nsfw     :` Image generation with a memey twist.\n\nTo view the commands of a category, send `.help <category>`" ,inline=False)
+    embed.set_footer(icon_url=ctx.author.avatar_url,text="Help requested by: {}".format(ctx.author.display_name))
+    await ctx.send(embed=embed)
+```
+this command will print the help command and you can customise it as your need
+
+<img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(113).png">
+
+### Sub-help command
+
+```
+#Sub-help command of memes
+@help.command ()
+async def memes(ctx):
+    embed=discord.Embed(title="IndianDesiMemer Help Center ✨", description="Commands of **meme** \n`.meme:`Memes",inline=False)
+    embed.set_footer(icon_url=ctx.author.avatar_url,text="Command requested by: {}".format(ctx.author.display_name))
+    await ctx.send(embed=embed)
+                            
+
+#Sub-help commands of nsfw                           
+@help.command ()
+async def nsfw(ctx) :
+    embed=discord.Embed(title="IndianDesiMemer Help Center ✨", description="Commands of **nsfw** \n`.nsfw:`NSFW", color=0xF49726)
+    embed.set_footer(icon_url=ctx.author.avatar_url,text="Command requested by: {}".format(ctx.author.display_name))
+    await ctx.send(embed=embed)
+
+
+#Sub-help commands of utility                           
+@help.command ()
+async def utility(ctx) :
+    embed=discord.Embed(title="IndianDesiMemer Help Center ✨", description="Commands of **utility** \n`.ping:`Latency", color=0xF49726)
+    embed.set_footer(icon_url=ctx.author.avatar_url,text="Command requested by: {}".format(ctx.author.display_name))
+    await ctx.send(embed=embed)
+```
+Like:
+<img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(114).png">
