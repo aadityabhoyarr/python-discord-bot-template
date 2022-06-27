@@ -156,3 +156,18 @@ async def meme(ctx):
 Cooldown is used to prevent the bot from spam attack,its basically in your own need
 
 <img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(115).png">
+
+### NSFW
+
+```
+@client.command()
+@commands.cooldown(1, 10, commands.BucketType.channel)
+async def nsfw(ctx):
+  if ctx.channel.is_nsfw():
+     print("nsfw work!!")
+  else:
+    print("You can use this command in a nsfw channel only !")         
+```
+Every bot creator wants to add an NSFW command but you have to make it safe for user expires.So this command will only run in an Age-restricted channel.
+
+<img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(116).png">
