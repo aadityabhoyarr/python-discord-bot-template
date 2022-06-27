@@ -12,9 +12,9 @@ client.remove_command("help") #to remove the default boring help command
 @client.event
 async def on_ready():
     print("We have logged in as {0.user} ".format(client)) 
-    activity = discord.Game(name=".help", type=3                # this is to writing prefix in playing a game.(optional)
-    await client.change_presence(status=discord.Status.online,  # this is for making the status as an online and writing prefix in playing a game.(optional)  
-                                 activity=activity)
+    activity = discord.Game(name=".help", type=3)               # this is to writing prefix in playing a game.(optional)
+    await client.change_presence(status=discord.Status.online, activity=activity) # this is for making the status as an online and writing prefix in playing a game.(optional)  
+                            
                             
                             
                             
