@@ -11,6 +11,7 @@ This template is specially made fro begner programer .Pleace remember this templ
 * [📩-How to download it](#-how-to-download-it)
 * [🚦-How to start](#-how-to-start)
 * [👩‍💻-Code in detail](#-code-in-detail)
+* [📖-Library Used](#-library-used)
 
 ## 💪- Support 
 
@@ -175,3 +176,9 @@ Every bot creator wants to add an NSFW command but you have to make it safe for 
 ## 📖-Library Used 
 - [discord.py](https://pypi.org/project/discord.py/)
 - [requests](https://pypi.org/project/requests/)
+
+## 🤖-My Discord Bot
+This bot is specially made for Indian Memes
+[Indian Desi Memer](https://discord.com/api/oauth2/authorize?client_id=987391836886794260&permissions=122406693952&scope=bot)
+
+## 🫂
