@@ -14,6 +14,7 @@ This template is specially made fro begner programer .Pleace remember this templ
 * [📖-Library Used](#-library-used)
 * [🤖-My Discord Bot](#-my-discord-bot)
 * [😁-Help Me](#-help-me)
+* [⏳-Running Bot 24/7](#-running-bot-247)
 
 ## 💪- Support 
 
