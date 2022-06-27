@@ -49,6 +49,14 @@ async def utility(ctx) :
     embed=discord.Embed(title="IndianDesiMemer Help Center ✨", description="Commands of **utility** \n`.ping:`Latency", color=0xF49726)
     embed.set_footer(icon_url=ctx.author.avatar_url,text="Command requested by: {}".format(ctx.author.display_name))
     await ctx.send(embed=embed)                            
+
+
+# it is used for the cooldown to prevent the bot from spam attack                             
+@client.event
+async def on_command_error(ctx, error):
+    if isinstance(error, commands.CommandOnCooldown):
+        await ctx.send("**Try after {0} second ".format(round(error.retry_after, 2)))                            
+                            
                             
 #meme command                            
 @client.command()
