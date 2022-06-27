@@ -91,3 +91,7 @@ async def on_ready():
     activity = discord.Game(name=".help", type=3)               
     await client.change_presence(status=discord.Status.online, activity=activity)
 ```
+This command will print we have logged in as botname, and this is for making the status as an online and writing prefix in playing a game
+
+<img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(112).png">
+
