@@ -60,6 +60,7 @@ async def on_command_error(ctx, error):
                             
 #meme command                            
 @client.command()
+@commands.cooldown(1, 10, commands.BucketType.channel) # it is used for the cooldown to prevent the bot from spam attack                            
 async def meme(ctx):
     
     response = requests.get("https://meme-api.herokuapp.com/gimme/"+"memes"+"memes"+"?t=all?hot")
@@ -77,12 +78,24 @@ async def meme(ctx):
     embed.set_footer(text="\n👍\t"+ uv+ "  By :r/"+subreddit)
     await ctx.send(embed=embed)                            
                             
-
+#nsfw command
+@client.command()
+@commands.cooldown(1, 10, commands.BucketType.channel)
+async def tites(ctx):
+  if ctx.channel.is_nsfw():
+     print("nsfw work!!")
+  else:
+    print("You can use this command in a nsfw channel only !")                            
+                            
+                            
 #ping command                            
 @client.command()
+@commands.cooldown(1, 10, commands.BucketType.channel) # it is used for the cooldown to prevent the bot from spam attack                            
 async def ping(ctx):
     await ctx.send('Ping! **{0}**ms'.format(round(client.latency, 1)))
-    
+                            
+                      
+client.run(token)    
                             
                             
                             
