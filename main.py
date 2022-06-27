@@ -27,13 +27,54 @@ async def help(ctx):
     await ctx.send(embed=embed)
                             
 
-                            @help.command ()
+#Sub-help command of memes
+@help.command ()
 async def memes(ctx):
-    embed=discord.Embed(title="IndianDesiMemer Help Center ✨", description="Commands of **meme** \n`yar meme     :` Complet Dsei Memes",inline=False)
+    embed=discord.Embed(title="IndianDesiMemer Help Center ✨", description="Commands of **meme** \n`.meme:`Memes",inline=False)
     embed.set_footer(icon_url=ctx.author.avatar_url,text="Command requested by: {}".format(ctx.author.display_name))
     await ctx.send(embed=embed)
                             
+
+#Sub-help commands of nsfw                           
+@help.command ()
+async def nsfw(ctx) :
+    embed=discord.Embed(title="IndianDesiMemer Help Center ✨", description="Commands of **nsfw** \n`.nsfw:`NSFW", color=0xF49726)
+    embed.set_footer(icon_url=ctx.author.avatar_url,text="Command requested by: {}".format(ctx.author.display_name))
+    await ctx.send(embed=embed)
+
+
+#Sub-help commands of utility                           
+@help.command ()
+async def utility(ctx) :
+    embed=discord.Embed(title="IndianDesiMemer Help Center ✨", description="Commands of **utility** \n`.ping:`Latency", color=0xF49726)
+    embed.set_footer(icon_url=ctx.author.avatar_url,text="Command requested by: {}".format(ctx.author.display_name))
+    await ctx.send(embed=embed)                            
                             
+#meme command                            
+@client.command()
+async def meme(ctx):
+    
+    response = requests.get("https://meme-api.herokuapp.com/gimme/"+"memes"+"memes"+"?t=all?hot")
+    
+    m = response.json()
+    postLink = (m["postLink"])
+    subreddit = (m["subreddit"])
+    title = (m["title"])
+    imageUrl =  (m["url"])
+    upVote = (m["ups"])
+    uv = str(upVote)
+
+    embed=discord.Embed(title= title, url=postLink,color=0xF49726)
+    embed.set_image(url=imageUrl)
+    embed.set_footer(text="\n👍\t"+ uv+ "  By :r/"+subreddit)
+    await ctx.send(embed=embed)                            
+                            
+
+#ping command                            
+@client.command()
+async def ping(ctx):
+    await ctx.send('Ping! **{0}**ms'.format(round(client.latency, 1)))
+    
                             
                             
                             
