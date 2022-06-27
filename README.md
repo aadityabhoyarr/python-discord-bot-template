@@ -24,8 +24,13 @@ Here are the step to creating a Discord Bot account:
 - Navigate to the [application page.](https://discord.com/developers/applications)
 - Click on the “New Application” button.
 - Give the application a name and click “Create”.
+
 <img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(107).png">
+
 - Go to the “Bot” tab and then click “Add Bot”. You will have to confirm by clicking "Yes, do it!"
+
+<img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(108).png">
+
  **Keep the default settings for Public Bot (checked) and Require **OAuth2 Code Grant**(unchecked).**
 - `Your bot has been created.`
 - Copy the token. This token is your bot's password so don't share it with anybody. It could allow someone to log in to your bot and do all sorts of bad things. You can regenerate the token if it accidentally gets shared.
