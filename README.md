@@ -65,4 +65,11 @@ pip install -r requirements.txt
 ## 👩‍💻-Code in detail
 
 About the code in detail
-### on_read
+### on_ready
+```
+@client.event
+async def on_ready():
+    print("We have logged in as {0.user} ".format(client)) 
+    activity = discord.Game(name=".help", type=3)               
+    await client.change_presence(status=discord.Status.online, activity=activity)
+```
