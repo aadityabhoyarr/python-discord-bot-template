@@ -171,3 +171,7 @@ async def nsfw(ctx):
 Every bot creator wants to add an NSFW command but you have to make it safe for user expires.So this command will only run in an Age-restricted channel.
 
 <img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(116).png">
+
+## 📖-Library Used 
+- [discord.py](https://pypi.org/project/discord.py/)
+- [requests](https://pypi.org/project/requests/)
