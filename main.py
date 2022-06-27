@@ -22,7 +22,7 @@ async def on_ready():
 @client.group(invoke_without_command=True)
 async def help(ctx):
     embed = discord.Embed(title="IndianDesiMemer Help Center ✨",color=0xF49726)
-    embed.add_field(name="Command Categories :",value="🐸 `memes    :` Image generation with a memey twist.\n" + "🔧 `utility  :` Bot utility zone\n\n" ,inline=False)
+    embed.add_field(name="Command Categories :",value="🐸 `memes    :` Image generation with a memey twist.\n" + "🔧 `utility  :` Bot utility zone\n😏 `nsfw     :` Image generation with a memey twist.\n\nTo view the commands of a category, send `.help <category>`" ,inline=False)
     embed.set_footer(icon_url=ctx.author.avatar_url,text="Help requested by: {}".format(ctx.author.display_name))
     await ctx.send(embed=embed)
                             
@@ -81,7 +81,7 @@ async def meme(ctx):
 #nsfw command
 @client.command()
 @commands.cooldown(1, 10, commands.BucketType.channel)
-async def tites(ctx):
+async def nsfw(ctx):
   if ctx.channel.is_nsfw():
      print("nsfw work!!")
   else:
