@@ -12,6 +12,8 @@ This template is specially made fro begner programer .Pleace remember this templ
 * [🚦-How to start](#-how-to-start)
 * [👩‍💻-Code in detail](#-code-in-detail)
 * [📖-Library Used](#-library-used)
+* [🤖-My Discord Bot](#-my-discord-bot)
+* [😁-Help Me](#-help-me)
 
 ## 💪- Support 
 
