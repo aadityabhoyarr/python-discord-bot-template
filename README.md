@@ -10,6 +10,7 @@ This template is specially made fro begner programer .Pleace remember this templ
 * [✉️-Invite Your Bot to Join a Server](#%EF%B8%8F-invite-your-bot-to-join-a-server)
 * [📩-How to download it](#-how-to-download-it)
 * [🚦-How to start](#-how-to-start)
+* [👩‍💻-Code in detail](#-code-in-detail)
 
 ## 💪- Support 
 
