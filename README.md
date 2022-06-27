@@ -185,3 +185,10 @@ This bot is specially made for Indian Memes
 
 ## 😁-Help Me
 If u want to help me in a financial way so [Buy Me A Coffee☕](https://www.buymeacoffee.com/adityabhoyar)
+
+## ⏳-Running Bot 24/7
+You can run your bot 24/7 free here :
+- [Google Cloud](https://cloud.google.com)
+- [Amazon Cloud](https://aws.amazon.com)
+- [Replit](https://replit.com/)
+- [Heroku](https://www.heroku.com/)
