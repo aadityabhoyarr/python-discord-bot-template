@@ -17,7 +17,7 @@ This template is specially made fro begner programer .Pleace remember this templ
 
 - Keep the credits, and a link to this repository in all the files containing my code will help me as a developer and new programer can see and get some help.
 - If you don't know the basics. [Here's](https://www.pythondiscord.com/resources) a link for resources to learn python.
-- If u want to help me in a financial way so Buy Me A Coffee☕
+- If u want to help me in a financial way so [Buy Me A Coffee☕](https://www.buymeacoffee.com/adityabhoyar)
 
 ## 🎫-Get the Discord Token
 
@@ -181,4 +181,5 @@ Every bot creator wants to add an NSFW command but you have to make it safe for 
 This bot is specially made for Indian Memes
 [Indian Desi Memer](https://discord.com/api/oauth2/authorize?client_id=987391836886794260&permissions=122406693952&scope=bot)
 
-## 🫂
+## 😁-Help Me
+If u want to help me in a financial way so [Buy Me A Coffee☕](https://www.buymeacoffee.com/adityabhoyar)
