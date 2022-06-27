@@ -153,3 +153,6 @@ async def on_command_error(ctx, error):
 async def meme(ctx):
     await ctx.send("Memes")        
 ```
+Cooldown is used to prevent the bot from spam attack,its basically in your own need
+
+<img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(115).png">
