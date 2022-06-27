@@ -135,5 +135,7 @@ async def utility(ctx) :
     embed.set_footer(icon_url=ctx.author.avatar_url,text="Command requested by: {}".format(ctx.author.display_name))
     await ctx.send(embed=embed)
 ```
+
 Like:
+
 <img src =  "https://github.com/MrAdityaBhoyar/repo-asset/blob/main/Python-Discord-Bot-Template/Screenshot%20(114).png">
