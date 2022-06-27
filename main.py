@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-
+import requests
 
 token = YOUR_BOT_PREFIX_HERE
 prefix = YOUR_BOT_TOKEN_HERE
