@@ -29,8 +29,8 @@ Here are the step to creating a Discord Bot account:
 - Navigate to the [application page.](https://discord.com/developers/applications)
 - Click on the “New Application” button.
 
-<img src =  "python-discord-bot-template/blob/main/repoAssits/Screenshot%20(107).png">
-<img src="example.jpg" >
+<img src =  "https://github.com/aadityabhoyar/repo-asset/blob/main/pythonDiscordBotTemplet/110.png">
+
 
 - Give the application a name and click “Create”.
 
