@@ -10,8 +10,6 @@ This repository is a Python Discord bot template that anyone can use to start bu
 * [🚦-How to start](#-how-to-start)
 * [👩‍💻-Code in detail](#-code-in-detail)
 * [📖-Library Used](#-library-used)
-* [🤖-My Discord Bot](#-my-discord-bot)
-* [😁-Help Me](#-help-me)
 * [⏳-Running Bot 24/7](#-running-bot-247)
 
 ## 💪- Support 
