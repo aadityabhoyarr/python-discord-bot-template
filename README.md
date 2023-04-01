@@ -33,7 +33,7 @@ Here are the step to creating a Discord Bot account:
 
 <img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093894607974510/108.jpg">
 
-- Go to the “Bot” tab and then click “Add Bot”. You will have to confirm by clicking "Yes, do it!"
+- Go to the “Bot” tab and click “Add Bot”. Confirm by clicking "Yes, do it!"
 
 <img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093894826082325/110.jpg">
 
@@ -42,7 +42,7 @@ Here are the step to creating a Discord Bot account:
 
 <img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093895048384543/111.jpg">
 
-- Copy the token. This token is your bot's password so don't share it with anybody. It could allow someone to log in to your bot and do all sorts of bad things. You can regenerate the token if it accidentally gets shared.
+- Copy the token. Remember, this token is your bot's password, so don't share it with anyone. Sharing it could allow someone to log in to your bot and perform malicious actions. If the token accidentally gets shared, you can regenerate it.
 
 ## ✉️-Invite Your Bot to Join a Server
 
