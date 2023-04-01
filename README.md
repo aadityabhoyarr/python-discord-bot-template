@@ -16,9 +16,8 @@ This repository is a Python Discord bot template that anyone can use to start bu
 
 ## 💪- Support 
 
-- Keep the credits, and a link to this repository in all the files containing my code will help me as a developer and new programer can see and get some help.
-- If you don't know the basics. [Here's](https://www.pythondiscord.com/resources) a link for resources to learn python.
-- If u want to help me in a financial way so [Buy Me A Coffee☕](https://www.buymeacoffee.com/adityabhoyar)
+- Please ensure that you keep the credits and a link to this repository in all files containing my code. This will help me as a developer, and new programmers can access the link to get some additional help if needed
+- If you are unfamiliar with the basics of discord.py, [here](https://www.pythondiscord.com/resources) is a link to some resources that can help you learn.
 
 ## 🎫-Get the Discord Token
 
