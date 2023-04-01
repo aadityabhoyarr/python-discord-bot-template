@@ -170,7 +170,7 @@ async def nsfw(ctx):
   else:
     print("You can use this command in a nsfw channel only !")         
 ```
-Every bot creator wants to add an NSFW command but you have to make it safe for user expires.So this command will only run in an Age-restricted channel.
+Many bot creators may want to add an NSFW command to their bots, but it is crucial to ensure that users are protected and that the content expires safely. To achieve this, the command should only be executed in an age-restricted channel.
 
 <img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093896050819182/116.jpg">
 
