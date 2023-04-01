@@ -180,17 +180,3 @@ Every bot creator wants to add an NSFW command but you have to make it safe for 
 ## 📖-Library Used 
 - [discord.py](https://pypi.org/project/discord.py/)
 - [requests](https://pypi.org/project/requests/)
-
-## 🤖-My Discord Bot
-This bot is specially made for Indian Memes
-[Indian Desi Memer](https://discord.com/api/oauth2/authorize?client_id=987391836886794260&permissions=122406693952&scope=bot)
-
-## 😁-Help Me
-If u want to help me in a financial way so [Buy Me A Coffee☕](https://www.buymeacoffee.com/adityabhoyar)
-
-## ⏳-Running Bot 24/7
-You can run your bot 24/7 free here :
-- [Google Cloud](https://cloud.google.com)
-- [Amazon Cloud](https://aws.amazon.com)
-- [Replit](https://replit.com/)
-- [Heroku](https://www.heroku.com/)
