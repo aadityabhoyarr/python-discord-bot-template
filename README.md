@@ -23,21 +23,21 @@ Here are the step to creating a Discord Bot account:
 - Navigate to the [application page.](https://discord.com/developers/applications)
 - Click on the “New Application” button.
 
-<img src = "https://cdn.discordapp.com/attachments/1054093794414444544/1054093894394073208/107.jpg">
+<img src = "https://github.com/aadityabhoyar/python-discord-bot-template/blob/main/media/107.jpg">
 
 
 - Give the application a name and click “Create”.
 
-<img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093894607974510/108.jpg">
+<img src =  "hhttps://github.com/aadityabhoyar/python-discord-bot-template/blob/main/media/108.jpg">
 
 - Go to the “Bot” tab and click “Add Bot”. Confirm by clicking "Yes, do it!"
 
-<img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093894826082325/110.jpg">
+<img src =  "https://github.com/aadityabhoyar/python-discord-bot-template/blob/main/media/110.jpg">
 
  **Keep the default settings for Public Bot (checked) and Require **OAuth2 Code Grant**(unchecked).**
 - `Your bot has been created.`
 
-<img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093895048384543/111.jpg">
+<img src =  "https://github.com/aadityabhoyar/python-discord-bot-template/blob/main/media/111.jpg">
 
 - Copy the token. Remember, this token is your bot's password, so don't share it with anyone. Sharing it could allow someone to log in to your bot and perform malicious actions. If the token accidentally gets shared, you can regenerate it.
 
@@ -46,11 +46,11 @@ Here are the step to creating a Discord Bot account:
 Now you have to get your Bot User into a server. To do this, you should create an invite URL for it.
 - Go to the "OAuth2" tab. Then select "bot" under the "scopes" section.
 
-<img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093896231178280/image-123.jpg">
+<img src =  "https://github.com/aadityabhoyar/python-discord-bot-template/blob/main/media/image-123.jpg">
 
 - Now choose the permissions you want for the bot. Our bot is going to mainly use text messages so we don't need a lot of the permissions. You may need more depending on what you want your bot to do. Be careful with the "Administrator" permission.
 
-<img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093945413578952/image-124.jpg">
+<img src =  "https://github.com/aadityabhoyar/python-discord-bot-template/blob/main/media/image-124.jpg">
 
 - After selecting the appropriate permissions, click the 'copy' button above the permissions. That will copy a URL which can be used to add the bot to a server.Paste the URL into your browser, choose a server to invite the bot to, and click “Authorize”.
 - Now that you've created the bot user, we'll start writing the Python code for the bot.
@@ -93,7 +93,7 @@ async def on_ready():
 ```
 This command will print we have logged in as botname, and this is for making the status as an online and writing prefix in playing a game
 
-<img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093895245508779/112.jpg">
+<img src =  "https://github.com/aadityabhoyar/python-discord-bot-template/blob/main/media/112.jpg">
 
 ### Help Command
 ```
@@ -106,7 +106,7 @@ async def help(ctx):
 ```
 this command will print the help command and you can customise it as your need
 
-<img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093895442645022/113.jpg">
+<img src =  "https://github.com/aadityabhoyar/python-discord-bot-template/blob/main/media/113.jpg">
 
 ### Sub-help command
 
@@ -137,7 +137,7 @@ async def utility(ctx) :
 
 Like:
 
-<img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093895652364329/114.jpg">
+<img src =  "https://github.com/aadityabhoyar/python-discord-bot-template/blob/main/media/114.jpg">
 
 ### Cooldown
 
@@ -154,7 +154,7 @@ async def meme(ctx):
 ```
 Cooldown is used to prevent the bot from spam attack,its basically in your own need
 
-<img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093895857877073/115.jpg">
+<img src =  "https://github.com/aadityabhoyar/python-discord-bot-template/blob/main/media/115.jpg">
 
 ### NSFW
 
