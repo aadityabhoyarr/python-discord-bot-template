@@ -169,7 +169,7 @@ async def nsfw(ctx):
 ```
 Many bot creators may want to add an NSFW command to their bots, but it is crucial to ensure that users are protected and that the content expires safely. To achieve this, the command should only be executed in an age-restricted channel.
 
-<img src =  "https://cdn.discordapp.com/attachments/1054093794414444544/1054093896050819182/116.jpg">
+<img src =  "https://github.com/aadityabhoyar/python-discord-bot-template/blob/main/media/116.jpg">
 
 ## 📖-Library Used 
 - [discord.py](https://pypi.org/project/discord.py/)
