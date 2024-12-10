@@ -5,7 +5,10 @@ import requests
 token = YOUR_BOT_PREFIX_HERE
 prefix = YOUR_BOT_TOKEN_HERE
 
-client = commands.Bot(command_prefix= prefix)
+# Create an instance of Intents and enable the events your bot will listen to
+intents = discord.Intents.all() #Enable all intents
+
+client = commands.Bot(command_prefix= prefix,intents=intents)
 client.remove_command("help") #to remove the default boring help command
 
 
